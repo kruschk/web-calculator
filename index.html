@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--<link href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+            rel="stylesheet" type="text/css" />-->
+		<link href="assets/images/favicon.ico" rel="icon"
+            type="image/x-icon" />
+		<link href="assets/styles/style.css" rel="stylesheet"
+            type="text/css" />
+		<meta charset="utf-8" />
+		<meta name="author" content="Jonah Kruschke" />
+		<meta name="charset" content="utf-8" />
+		<meta name="description"
+            content="A simple web-based pocket-calculator application." />
+		<meta name="keywords" content="calculator, web-app, simple" />
+		<meta name="viewport"
+            content="width=device-width, initial-scale=1" />
+		<title>Web Calculator</title>
+	</head>
+	<body>
+		<main>
+			<h1>Web Calculator</h1>
+            <p>This is a simple, web-based calculator application which can be used to perform basic arithmetic. Either a mouse or a keyboard can be used for input. I hope you find it useful!</p>
+			<div class="calculator">
+				<div class="screen">
+					<p id="viewport-screen"></p>
+				</div>
+				<button id="clear">Clear</button>
+				<button id="backspace">&larr;</button>
+				<button class="symbolic-input">&divide;</button>
+				<button class="symbolic-input">7</button>
+				<button class="symbolic-input">8</button>
+				<button class="symbolic-input">9</button>
+				<button class="symbolic-input">&times;</button>
+				<button class="symbolic-input">4</button>
+				<button class="symbolic-input">5</button>
+				<button class="symbolic-input">6</button>
+				<button class="symbolic-input">&minus;</button>
+				<button class="symbolic-input">1</button>
+				<button class="symbolic-input">2</button>
+				<button class="symbolic-input">3</button>
+				<button class="symbolic-input" id="plus">&plus;</button>
+				<button class="symbolic-input">0</button>
+				<button class="symbolic-input">.</button>
+				<button id="evaluate">&equals;</button>
+			</div>
+            <p>This application also has a unique feature: calculation results can be edited without re-entering them manually. Most calculator applications immediately clear the output when entering a new expression, but this one requires the user to clear the viewport manually if this is desired. This behaviour may be useful when composing complex expressions from simple ones.</p>
+		</main>
+		<script src="assets/scripts/main.js"></script>
+		<noscript>
+			This application requires client-side JavaScript to function.
+		</noscript>
+	</body>
+</html>
